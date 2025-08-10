@@ -657,7 +657,7 @@ class VxUniversal extends StatelessWidget {
       current = heroWidget(current);
     }
     if (addCard) {
-      current = cardWidget(current, context);
+      // current = cardWidget(current, context);
     }
     if (isCircleAvatar) {
       current = circleAvatarWidget(current);
